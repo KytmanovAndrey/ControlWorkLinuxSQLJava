@@ -1,0 +1,19 @@
+  641  cd shared
+  642  mkdir linuxCW
+  643  cd linuxCW
+  644  cat > Pets
+  645  cat > 'Pack animals'
+  646  cat Pets 'Pack animals' > new_file
+  647  cat new_file
+  648  mv new_file 'HumanFriends.txt'
+  649  ls
+  650  mkdir NewDir
+  651  mv HumanFriends.txt NewDir/
+  652  history > history.txt
+  653  sudo apt-get install mysql-server
+  654  [200~sudo dpkg -i mc-data_4.8.30-1_all.deb 
+  655  sudo dpkg -i mc-data_4.8.30-1_all.deb 
+  656  sudo wget http://ftp.us.debian.org/debian/pool/main/m/mc/mc-data_4.8.30-1_all.deb
+  657  sudo dpkg -i mc-data_4.8.30-1_all.deb 
+  658  sudo dpkg -r mc-data
+  659  history > history.txt
