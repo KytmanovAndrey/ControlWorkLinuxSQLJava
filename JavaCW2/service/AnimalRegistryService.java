@@ -8,6 +8,12 @@ import java.util.List;
 
 public class AnimalRegistryService {
     private List<Animal> animals = new ArrayList<>();
+    private List<Dog> dogs = new ArrayList<>();
+    private List<Cat> cats = new ArrayList<>();
+    private List<Hamster> hamsters = new ArrayList<>();
+    private List<Horse> horses = new ArrayList<>();
+    private List<Camel> camels = new ArrayList<>();
+    private List<Donkey> donkeys = new ArrayList<>();
 
     public void createAnimal(String name, String type, LocalDate dateOfBirth) {
         int maxId = 1;
